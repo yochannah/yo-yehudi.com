@@ -3,24 +3,35 @@ layout: default
 ---
 
 <div class="home">
+    <div class="content">
+        <div>
+            <h1>I like to make the internet.</h1>
+            <p>I'm <strong>Yo Yehudi</strong>, a software engineer at <a href="http://intermine.org/">InterMine</a>, an open source biological data platform at the University of Cambridge. I'm comfortable coding full stack, but my favourite bit of all is the place software intersects with people: the User Interface.</p>
+            <h2>Community</h2>
+            <p>As part of my work with InterMine, I blog regularly at <a href="https://intermineorg.wordpress.com/">intermineorg.wordpress.com</a>. I also tweet busily from <a href="https://twitter.com/intermineorg">@intermineorg</a>, mostly retweet others' tweets in <a href="https://twitter.com/gmodproject">@gmodproject</a>, and ruminate on academic software engineering and cats as <a href="https://twitter.com/gmodproject">@yoyehudi</a>.</p>
+            <h2>Code</h2>
+            <p>You can see some of <a href="https://github.com/yochannah">my open-source work on GitHub</a>. In particular, check out <a href="https://github.com/yochannah/redgenes">Bluegenes</a>, <a href="https://github.com/yochannah/go-intermod">the InterMod GO tool</a>,
+                and <a href="https://github.com/yochannah/cytoscape-intermine">cytoscape-intermine</a>. You'll note that most of my stuff is Java/Android, Javascript, or, more recently, Clojure or ClojureScript.</p>
+            <p>Here's my <a href="https://www.linkedin.com/in/yoyehudi">LinkedIn</a> profile, and <a href="http://stackoverflow.com/users/1542891/yochannah">here's my stackoverflow profile</a>.</p>
+        </div>
+        <div>If you'd like to contact me, please use yochannah@gmail.com - but note that I'm not looking for any job opportunities at the moment. Thanks.</div>
+    </div>
+    <aside>
+        <h1 class="page-heading">Posts</h1> {{ content }}
+        <ul class="post-list">
+            {% for post in site.posts %}
+            <li>
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
+                <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-      </li>
-    {% endfor %}
-  </ul>
+            </li>
+            {% endfor %}
+        </ul>
+        <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | relative_url }}">via RSS</a></p>
+    </aside>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>
