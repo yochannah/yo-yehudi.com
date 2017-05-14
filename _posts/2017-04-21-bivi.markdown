@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "BiVi - 3rd BiVi Annual Meeting (2017)"
+date:   2017-04-21 19:12:34 +0100
+categories: science events
+---
+
+BiVi this year was exhaustingly busy but good fun to attend with some great networking activities. As usual I [live tweeted](https://twitter.com/i/moments/856517477781708801) on the first day, gave a [lightning talk](https://docs.google.com/presentation/d/1ZII8Np0wUP-ugognNPL1KR-5ThwSbM465DKdZ_AJG6A/edit?usp=sharing) - 3 slides in 1 minute, phew! - and presented an InterMine poster.
+
+The second day was mostly interactive workshops, so I found myself recording notes in a Gist instead:
+
+<script src="https://gist.github.com/yochannah/0e0d8e00235b0b5c4ee228f20fb2d96c.js"></script>
