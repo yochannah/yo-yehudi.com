@@ -224,3 +224,13 @@ aside {
     padding-right: 5px;
     vertical-align: middle;
  }
+
+ .card img {box-shadow:1px 1px 2px rgba(0,0,0,0.1);width: 25vw;}
+
+.card {width: 15vw; background-color:#eee; padding:1em; margin:0.5em; box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+border-radius:2px;
+}
+
+#portfolio {display:flex;flex-wrap:wrap; justify-content:space-around;}
+
+.card h4 {font-weight:bold;}

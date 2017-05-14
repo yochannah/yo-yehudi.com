@@ -15,7 +15,30 @@ layout: default
                 and <a href="https://github.com/yochannah/cytoscape-intermine">cytoscape-intermine</a>. I used UK governmentopen traffic accident data to build an accident lookup map (<a href="https://github.com/yochannah/trafficuk">code</a>, <a href="https://yochannah.github.io/trafficuk/">demo</a>, <a href="https://data.gov.uk/apps/2015-traffic-accident-data-lookup">gov.uk approved listing</a>).  You'll note that most of my stuff is Java/Android, Javascript, or, more recently, Clojure or ClojureScript.</p>
 
         </div>
-        <div>If you'd like to contact me, please use yochannah@gmail.com - but note that I'm not looking for any job opportunities at the moment. Thanks.</div>
+        <div id="portfolio">
+          <div class="card">
+            <h4>BlueGenes</h4>
+            <a href="http://redgenes.apps.intermine.org/"><img src="images/bluegenes.png" alt="BlueGenes, a new UI for InterMine"></a>
+             <a class="codelink" href="https://github.com/yochannah/redgenes">Code</a>, <a  class="demolink"href="http://redgenes.apps.intermine.org/">demo</a>
+          </div>
+          <div class="card">
+            <h4>InterMOD GO Tool</h4>
+            <a href="http://gointermod.apps.intermine.org/#"><img src="images/gointermod.png" alt="GO InterMOD"></a>
+             <a class="codelink" href="https://github.com/yochannah/go-intermod">Code</a>, <a href="http://gointermod.apps.intermine.org/#">demo</a>
+          </div>
+          <div class="card">
+            <h4>UK Traffic Accident visualiser </h4>
+            <a href="http://redgenes.apps.intermine.org/"><img src="images/uktraffic.png" alt="BlueGenes, a new UI for InterMine"></a>
+            <a class="codelink" href="https://github.com/yochannah/trafficuk">Code</a>, <a href="https://yochannah.github.io/trafficuk/">demo</a>, <a href="https://data.gov.uk/apps/2015-traffic-accident-data-lookup">data.gov.uk approved listing</a>
+          </div>
+          <div class="card">
+            <h4>Gene interaction viewer</h4>
+            <a href="http://yochannah.github.io/cytoscape-intermine/"><img src="images/cytoscape.png" alt="Cytoscape InterMine"></a>
+             <a class="codelink" href="https://github.com/yochannah/cytoscape-intermine">Code</a>, <a href="http://yochannah.github.io/cytoscape-intermine/">demo</a>
+          </div>
+        </div>
+        <div>
+          <h3>Contact</h3>If you'd like to contact me, please use yochannah@gmail.com - but note that I'm not looking for any job opportunities at the moment. Thanks.</div>
     </div>
     <aside>
         <h1 class="page-heading">Posts</h1> {{ content }}
@@ -29,7 +52,6 @@ layout: default
             </li>
             {% endfor %}
         </ul>
-        <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | relative_url }}">via RSS</a></p>
     </aside>
 
 
