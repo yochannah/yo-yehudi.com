@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "BOSC 2017 - Bioinformatics Open Source Conference"
+date:   2017-07-28 20:12:34 +0100
+categories: science events
+---
+
+I attended ISMB/ECCB 2017 this year, specifically the [BOSC (Bioinformatics Open Source Conference) ](https://medium.com/@yoyehudi/bosc-2017-day-1-fbe73f01de2e) track. It was fantastically fun, exciting, and of course utterly exhausting - but best of all, PLOS Comp Bio published my blog posts about BOSC:
+
+[BOSC 2017 Day 1](https://medium.com/plos-comp-biol-field-reports-2016/bosc-2017-day-1-fbe73f01de2e)  
+[BOSC 2017 Day 2 Part 1](https://medium.com/@yoyehudi/bosc-2017-day-2-part-1-bosc2017-ismbeccb-9d4d8fda000c)  
+[BOSC 2017 BOSC 2017 Day 2 Part 2](https://medium.com/@yoyehudi/bosc-2017-day-2-part-2-bosc2017-ismbeccb-af4bf4a63a84)  
+[BOSC 2017 Day 2 Part 3 - keynote, aka sequencing in the field, pants optional](https://medium.com/plos-comp-biol-field-reports-2016/bosc-2017-day-2-part-3-keynote-bosc2017-ismbeccb-5a1598be50c4)  
