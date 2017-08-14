@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Participating in a scientific study as a control subject"
+date:   2017-07-28 21:38:54 +0100
+categories: science mri ocd volunteer
+---
