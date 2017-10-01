@@ -16,8 +16,8 @@
 title: yo-yehudi.com
 email: yochannah@gmail.com
 description: > # Personal and professional site of Yo Yehudi. Software Engineer extraordinaire at InterMine, based at the University of Cambridge. Fond of open source, bicycles, cats, limes, and handicrafts.
-baseurl: "/yo-yehudi.com" # the subpath of your site, e.g. /blog
-url: "http://yochannah.github.io/yo-yehudi.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yo-yehudi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yoyehudi
 github_username:  yochannah
 linkedin_username: yoyehudi
