@@ -21,7 +21,7 @@ url: "http://yo-yehudi.com" # the base hostname & protocol for your site, e.g. h
 twitter_username: yoyehudi
 github_username:  yochannah
 linkedin_username: yoyehudi
-stackoverflow_username: yochannah
+stackoverflow_username: 1542891
 
 # Build settings
 markdown: kramdown
