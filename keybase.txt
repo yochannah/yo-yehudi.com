@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/yoyehudi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://yo-yehudi.com
+  * I am yoyehudi (https://keybase.io/yoyehudi) on keybase.
+  * I have a public key ASDD6uhffR956xpmWI1COGfZpS37md_MM5wJMeu_36jnQAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c3eae85f7d1f79eb1a66588d423867d9a52dfb99dfcc339c0931ebbfdfa8e7400a",
+      "host": "keybase.io",
+      "kid": "0120c3eae85f7d1f79eb1a66588d423867d9a52dfb99dfcc339c0931ebbfdfa8e7400a",
+      "uid": "5a6a2112091f36b79b2ce5bbdc2ae619",
+      "username": "yoyehudi"
+    },
+    "merkle_root": {
+      "ctime": 1531153024,
+      "hash": "3324afdf7480486564df86a2b575f69046f5972cfca52bd9ac523130022e64e6a4339f43863440a4102c638bd2e223b51f8e57c7ee56a7736ea2df7b615a6ca5",
+      "hash_meta": "1edc6ca594193d2d456298a5e666b48706665b0d9048becdcd516edb7954ab67",
+      "seqno": 3220606
+    },
+    "service": {
+      "entropy": "AyJQtHCUVpmHUo9Kwqu65k/k",
+      "hostname": "yo-yehudi.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.2"
+  },
+  "ctime": 1531153048,
+  "expire_in": 504576000,
+  "prev": "3fd60077084c7b81a850f4cabc4bdd4cf3aa6bba0c09769de5953002ca2b341f",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgw+roX30feesaZliNQjhn2aUt+5nfzDOcCTHrv9+o50AKp3BheWxvYWTESpcCBsQgP9YAdwhMe4GoUPTKvEvdTPOqa7oMCXad5ZUwAsorNB/EIJYT0IVshGU6M+XAWQLWh3jXsgrtrOc/k/AJGMaQqLDJAgHCo3NpZ8RAA3+nj3d1VrKCO9QlqdXuDIG38NYLOJSknaKL9nGj9IraehqXA5eaQjFEJoKE87hGhIvTcEx0R29zM7bdVtvtB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIA/d+5MuSjNNwwiQ9sGPHTMiLtTfpQlg2d63iu2qmDt6o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yoyehudi
+
+==================================================================
