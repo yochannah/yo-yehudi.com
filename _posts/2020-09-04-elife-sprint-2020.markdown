@@ -1,0 +1,60 @@
+---
+layout: post
+date: 2020-09-04 16:24:45 +0100
+categories: science open-source community elife-sprint
+title: eLife Sprint 2020
+---
+
+Since 2018, [eLife](https://elifesciences.org/) has been running a yearly [innovation sprint](https://sprint.elifesciences.org/), focusing on projects and ideas that have the potential to transform how we do and share research. I've been interested in this for a while, but 2020 was the first year where I didn't have another event clashing with the date.
+
+[Isaac Miti](https://github.com/ikayz) and [João Paulo Taylor Ienczak Zanette (aka Tiz)](https://github.com/jptiz), and myself co-led this project. Under the umbrella of [Code is Science](https://github.com/codeisscience/code-is-science), we focussed on journal policies for code - and more specifically, on whether or not journals comply with their own policies.
+
+## Do research journals really not enforce their own policies?
+
+Journals not complying with their own policy _isn't_ as unlikely as it sounds. Anecdotally, I've noticed that many bioinformatics articles in journals that encouraged open behaviour didn't include code, or if they did, it wasn't really runnable. More systematic studies have found the same thing, too - [Stodden, Seiler and Ma, (2017)](https://doi.org/10.1073/pnas.1708290115) managed to retrieve code/data artifacts for 44%  of papers they surveyed in Science, which has a policy to require code availability.
+
+Our goal was, overall, to try to scaffold a database for journals and their policy compliance - essentially a leaderboard for journals show who the good players are. We made a nice start on the technical plans - you can see [Tiz's work on the DB schema](https://github.com/codeisscience/code-is-science/issues/62) and [Isaac's work on preparing personas](https://github.com/codeisscience/code-is-science/issues/60). This led us to our next question:
+
+## How do we quantify how compliant a journal is with its own policies?
+
+An initial goal seems easy:
+
+1. Find the policy for each journal
+2. Check if code (i.e. a github link) is present in code papers
+3. Figure out more complex quality metrics
+
+Turns out, however, step 2 wasn't as simple as you'd think, after all! [Abigail Wood](https://github.com/abigail-wood) and [Delwen Franzen](https://github.com/delwen) dove into the task of looking at papers and trying to identify papers that should have code associated with them, but don't. Pretty quickly they realised that searching for a negative presence is as almost as hard as proving a negative, so we ended up focusing on creating a list of keywords that might be associated with code papers.
+
+## Assuming there _is_ code in a paper, where should it be located?
+
+[Edidiong Etuk](https://github.com/edeediong) followed up by using the eLife API to try to access code links from papers, and came up with the next fascinating question: Where in a paper should I look to find code? Methods, data availability statements, other? Unfortunately, there's no real standard for this, so we decided to resort to full-text search for urls (GitHub, GitLab, BitBucket). This will miss out on some of the areas code might be (PDF/zip/Word supplements, for example 😭) but should still provide a good start.
+
+## Next steps
+We wrapped up the sprint with a set of presentations - the Code Is Science presentation can still be viewed [here](https://docs.google.com/presentation/d/1dwwoIST1RgGo_2ANixrSRONCHCreL2YHB9QG9Si0YLo/edit#slide=id.g93f80028a8_0_12). A few projects that particularly caught my interest in no particular order - I'll be digging in and reading more about these in the future!
+
+- [A badge for FAIR software](https://github.com/fair-software/badge)
+- [The software citation project](https://github.com/sarthak-sehgal/software-citation)
+- [Open grants](https://github.com/expanding-open-grants/ogrants)
+
+### Project sustainability
+
+#### Short-term:
+
+- Blogs, so that we document what we've learned and done so far! This post, sub-posts for the personas, code availability, and finding computational method papers that have no code.
+- More reading, especially around the brainstorming and inspiration sections of the [Code is Science Sprint Planning](https://docs.google.com/document/d/1p7nAh_5c1KxhUDXu2bn4SjdWBvqiqTcTCvubG3AKDBA/edit#) document.
+
+#### Medium term:
+
+1. Set up regular community calls, so we can keep up momentum. There are a couple of sub-topics:
+    1. Technical platform implementation
+    2. How to express journal compliance levels
+    3. Code availability standardisation - we had interest from at least two journals at the sprint and can identify other possible interested parties from other areas (researchers, journals that weren't at the sprint).
+3. Continue implementing the platform we've started!  
+
+## Acknowledgements
+
+We would like to thank:
+
+- The eLife staff, organisers, safety facilitators, especially Dr Emmy Tsang.
+- All the people who filled out our persona survey (blog to come)
+- All of the contributors who contributed ideas and discussions, code search keywords, code, and more - you made this sprint incredibly fun!
