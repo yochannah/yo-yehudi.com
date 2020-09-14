@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-09-14 111:06:04 +0100
+date: 2020-09-14 11:49:04 +0100
 categories: science open-source reproducibility replicability code-quality
 title: On preparing code for publication
 ---
@@ -33,4 +33,4 @@ Programmer secret tip: Bug reports are awesome and make your work better in the 
   - If you're using GitHub, they could open an [issue on GitHub](https://guides.github.com/features/issues/) as a way to record the difficulty. Step through each issue and fix it or document how to deal with it.
   - If you find that they can't replicate your results with your original data, try to figure out why, and whether the old results or the new ones are correct. You might need to bring in a third person here to see what results they end up with!
 
-At some point, you and your friend will have worked out all the kinks in the process. Congratulations! If there's no reason to keep the code private, it's time to [add a licence to your repository](https://choosealicense.com/) if you haven't already. If you're not sure, consider adding a permissive licence such as MIT, which allows you to use the code privately if needed but also allows open re-use and sharing. It's important to add _some_ licence - if you don't add any, the code might be online but [it's illegal to re-use at all](https://choosealicense.com/no-permission/) 😭. 
+At some point, you and your friend will have worked out all the kinks in the process. Congratulations! If there's no reason to keep the code private, it's time to [add a licence to your repository](https://choosealicense.com/) if you haven't already. If you're not sure, consider adding a permissive licence such as MIT, which allows you to use the code privately if needed but also allows open re-use and sharing. It's important to add _some_ licence - if you don't add any, the code might be online but [it's illegal to re-use at all](https://choosealicense.com/no-permission/) 😭.
