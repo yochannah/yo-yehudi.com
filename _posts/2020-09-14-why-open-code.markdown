@@ -2,7 +2,7 @@
 layout: post
 date: 2020-09-14 11:06:04 +0100
 tags: science open-source reproducibility replicability code-quality
-title: In research&colon; Why open code?
+title: "In research: Why open code?"
 ---
 
 For a long time, reproducibility and replicability - that is, the ability to re-run analyses and re-use research code - has been a passion of mine. Since I started working at the Wellcome Trust, though, it's also become a part of my job, and one I need to think about strategically. The goal is reasonably straightforward: **when research has a computational aspect, how do we ensure that it is robust enough that others can examine the methods (i.e. the code<sup>*</sup>) and at the very least re-run them, or ideally also re-use them for future analyses on different data?**
