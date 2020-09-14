@@ -14,4 +14,4 @@ For a long time, reproducibility and replicability - that is, the ability to re-
 
 <sup>*</sup> or the excel spreadsheet, or whatever tool you used. Non-code computational analyses are important, and if the method works, we shouldn't consider it somehow lesser.
 
-Next in this series, I'll write a little for the "what" of open code.
+Next in this series, I'll write a little for the [sharing of code when preparing for publication]({% post_url 2020-09-14-on-preparing-your-code-for-publication %}).
