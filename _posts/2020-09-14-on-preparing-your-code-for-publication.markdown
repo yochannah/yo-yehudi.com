@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-09-14 11:49:04 +0100
-categories: science open-source reproducibility replicability code-quality
+tags: science open-source reproducibility replicability code-quality
 title: On preparing code for publication
 ---
 
@@ -18,7 +18,7 @@ We'll assume at this point you have:
 
 Once you're at this stage, my next tip: find a friend or colleague who can write code at least as well as you. Ask them to try producing the same results you have already produced. If you don't know someone who could do this, check if your institute has a research software engineering team - they may be able to provide a short consultation without too much fuss.
 
-### Sharing my code is scary - what if it's not good enough?
+### Sharing my code is scary - what if it's not good enough?
 
 Programmer secret tip: Bug reports are awesome and make your work better in the end. Much like it's helpful to get someone else to proof read a document to spot errors and discontinuities, getting someone else to review your code will only make it better. The person reviewing your code will ask questions about how to run it, how to fix weird errors, what tools are required to make this work - and as you fix the documentation and tooling, it'll make a better product.
 
