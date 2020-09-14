@@ -5,7 +5,7 @@ tags: science open-source reproducibility replicability code-quality
 title: On preparing code for publication
 ---
 
-Previously, [I wrote a little about why open code is important in research]({% post_url 2020-09-14-why-open-code.html %}). I'm in the process of reviewing R code for a publication that is nearly ready to go live, and adding a few thoughts here on what useful steps a novice coder can take to make their code re-runnable and possibly even re-usable.  
+Previously, [I wrote a little about why open code is important in research]({% post_url 2020-09-14-why-open-code %}). I'm in the process of reviewing R code for a publication that is nearly ready to go live, and adding a few thoughts here on what useful steps a novice coder can take to make their code re-runnable and possibly even re-usable.  
 
 ## Getting started
 
