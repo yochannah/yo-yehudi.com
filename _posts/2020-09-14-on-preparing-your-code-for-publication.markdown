@@ -11,10 +11,10 @@ Previously, [I wrote a little about why open code is important in research]({% p
 
 We'll assume at this point you have:
 
-- some code that you used to produce your results. (This might be R, python, Matlab, or some other tool that works for you).
+- some code that you used to produce your results. (This might be R, Python, Matlab, or some other tool that works for you).
 - a set of results that you hope are reproducible.
 
-## Ask someone else to look at it
+## Ask someone else to look at it and try to run it
 
 Once you're at this stage, my next tip: find a friend or colleague who can write code at least as well as you. Ask them to try producing the same results you have already produced. If you don't know someone who could do this, check if your institute has a research software engineering team - they may be able to provide a short consultation without too much fuss.
 
@@ -26,7 +26,7 @@ Programmer secret tip: Bug reports are awesome and make your work better in the 
 
 1. Share the code and results with your friendly code-reviewer, as well as any underlying data needed to make it run. Some solutions to possible difficult points:
   - Private data: Create a few lines of fake data that is shaped like the real data, if you can't share the real data for ethical reasons, or if sharing it would require long and complicated background checks or approval processes.
-  - keeping track of code changes is complicated: Try putting your code on [GitHub](https://github.com/), under a private repository if needed. Add your friend's github user to the private repo so they can access it. If you've never used Git before, programs like [GitHub Desktop](https://desktop.github.com/) (Windows, Mac) or [GitKraken](https://www.gitkraken.com/download) (Mac, Linux, Windows) can make it smooth, and don't require you to learn the command line.
+  - keeping track of code changes is complicated: Try putting your code on [GitHub](https://github.com/), under a private repository if needed. Add your friend's GitHub user to the private repo so they can access it. If you've never used Git before, programs like [GitHub Desktop](https://desktop.github.com/) (Windows, Mac) or [GitKraken](https://www.gitkraken.com/download) (Mac, Linux, Windows) can make it smooth, and don't require you to learn the command line.
 2. Try to include some running instructions. A text file with steps to get going would be great - it might be something as short as "install R and RStudio, install libraries x, y, z, and then open up MyAnalysis.Rmd in RStudio and run the knit command". Any steps that you've missed off, your code-reviewing friend will probably come back and ask you about.  
 3. Now it's up to your code-reviewing friend. Ask them to make note of places they struggled or got stuck.
   - If they resolved it on their own, they should still either fix the code / running instructions, or ask you to do so.
