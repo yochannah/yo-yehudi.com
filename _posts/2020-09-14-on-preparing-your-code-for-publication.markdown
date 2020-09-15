@@ -34,3 +34,9 @@ Programmer secret tip: Bug reports are awesome and make your work better in the 
   - If you find that they can't replicate your results with your original data, try to figure out why, and whether the old results or the new ones are correct. You might need to bring in a third person here to see what results they end up with!
 
 At some point, you and your friend will have worked out all the kinks in the process. Congratulations! If there's no reason to keep the code private, it's time to [add a licence to your repository](https://choosealicense.com/) if you haven't already. If you're not sure, consider adding a permissive licence such as MIT, which allows you to use the code privately if needed but also allows open re-use and sharing. It's important to add _some_ licence - if you don't add any, the code might be online but [it's illegal to re-use at all](https://choosealicense.com/no-permission/) 😭.
+
+## Other tips
+
+Versioning! Kira Mourão suggests:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Providing version numbers of *everything* used - not just packages but R/python/Matlab, data preprocessing software etc - is essential for reproducibility. Users trying to get it to work 3 years later will also thank you for any tests and code comments <a href="https://twitter.com/hashtag/iloveotherpeoplescode?src=hash&amp;ref_src=twsrc%5Etfw">#iloveotherpeoplescode</a></p>&mdash; Kira Mourão (@kiramt) <a href="https://twitter.com/kiramt/status/1305808015719833600?ref_src=twsrc%5Etfw">September 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
