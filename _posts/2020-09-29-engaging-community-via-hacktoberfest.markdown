@@ -17,7 +17,7 @@ If you're in or near the tech world, I'd highly recommend having a go at this, e
 - experience - if you're new to coding, or if you've only coded for organisations that keep their code private, having a few publicly recorded code contributions can do wonders for future job applications.
 - altruism. Give a little and feel good about it 💪 - perhaps consider picking a project that inspires you, like an astronomy project, a project encouraging diversity in tech, a project that helps scientists work with cancer data, or just a project that you use in your daily life.
 
-## Soliciting contributions
+## Soliciting contributions
 
 If you're a github repo maintainer and you're interested in soliciting contributions, congratulations: you're in it for the long game in a way that might require a gentle mind shift. At the face of it, you're getting contributions to your project, but despite the fact that no money is being exchanged, it's not labour for free. Think critically about the value exchange that is coming up: people are contributing code, and you're offering guidance and specific tasks to work on.
 
