@@ -9,7 +9,7 @@ title: Engaging community via Hacktoberfest
 
 Your average geek loves "free" stuff, and probably loves geek-branded stuff even more, so this works surprisingly well in pulling in contributors to open source projects. If we look under the skin beyond "free stuff", there's incredible value in this initiative, whether you're a project maintainer, an experienced code, or a complete newbie - it's even entirely possible to contribute without writing a single line of code.
 
-## Making contributions to projects
+## Making contributions to projects
 
 If you're in or near the tech world, I'd highly recommend having a go at this, even if you aren't too fussed about a cool geeky shirt. There are a few reasons beyond the shirt that participating is useful:
 
