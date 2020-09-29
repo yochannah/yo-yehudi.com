@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: yo-yehudi.com
 email: yochannah@gmail.com
-description: > # Personal and professional site of Yo Yehudi. Software Engineer extraordinaire at InterMine, based at the University of Cambridge. Fond of open source, bicycles, cats, limes, and handicrafts.
+description: > #Personal and professional site of Yo Yehudi. Open Source Tech Lead at the Wellcome Trust, Software Sustainability Institute Fellow. Fond of open science, bicycles, cats, limes, and handicrafts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yo-yehudi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yoyehudi
