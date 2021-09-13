@@ -5,7 +5,7 @@ layout: post
 ---
 
 ## Email
-For anything longer format, please email me on [y.yehudi@wellcome.org](mailto:y.yehudi@wellcome.org) or [yochannah@gmail.com](mailto:yochannah@gmail.com). (Note that I only check the Cambridge address during work hours).
+For anything longer format, please email me on [y.yehudi@wellcome.org](mailto:y.yehudi@wellcome.org) or [yochannah@gmail.com](mailto:yochannah@gmail.com). (Note that I only check the Wellcome address during UK work hours).
 
 ## Urgent response needed?
 
