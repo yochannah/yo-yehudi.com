@@ -13,4 +13,4 @@ The fastest was to contact me for quick issues is usually via Twitter - I'm [yoy
 
 ## Looking to chat?
 
- I'm happy to chat for any reason, but especially keen to offer advice and mentorship to people who are taking their first steps in open source. [Book some time in my calendar](/calendar).
+ I'm happy to chat for any reason, but especially keen to offer advice and mentorship to people who are taking their first steps in open source, open science, or in research - whether or not you're in academia. [Book some time in my calendar](/calendar).
