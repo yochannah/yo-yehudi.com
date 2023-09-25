@@ -5,7 +5,7 @@ layout: post
 ---
 
 ## Email
-For anything longer format, please email me on [yo@owe-are-ols.org](mailto:yo@we-are-ols.org) or [yochannah@gmail.com](mailto:yochannah@gmail.com). (Note that I only check the Open Life Science address during UK work hours, Monday, Wednesday, Friday).
+For anything longer format, please email me on [yo@we-are-ols.org](mailto:yo@we-are-ols.org) or [yochannah@gmail.com](mailto:yochannah@gmail.com). (Note that I only check the Open Life Science address during UK work hours, Monday, Wednesday, Friday).
 
 ## Urgent response needed?
 
