@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 
 This is the page you come to if you're reading my wrist ID. I hope I'm okay! 
