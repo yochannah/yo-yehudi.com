@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: yo-yehudi.com
+title: Dr Yo Yehudi
 email: yochannah@gmail.com
-description: > #Personal and professional site of Yo Yehudi. Open Source Tech Lead at the Wellcome Trust, Software Sustainability Institute Fellow. Fond of open science, bicycles, cats, limes, and handicrafts.
+description: > #Personal and professional site of Yo Yehudi. Exec Director at OLS, Software Sustainability Institute Fellow. Fond of open science, bicycles, cats, limes, and handicrafts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yo-yehudi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yoyehudi

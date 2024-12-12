@@ -9,7 +9,7 @@ For anything longer format, please email me on [yo@we-are-ols.org](mailto:yo@we-
 
 ## Urgent response needed?
 
-The fastest was to contact me for quick issues is usually via Twitter - I'm [yoyehudi](twitter.com/yoyehudi) there.
+Try the Camille route below 👇🏼
 
 ## Looking to chat?
 
