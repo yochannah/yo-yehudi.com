@@ -11,7 +11,7 @@ layout: default
 
             <p>Prior to this, I was Open Source Technology Lead at the Wellcome Trust, and before that an open source research software engineer and community manager at <a href="http://intermine.org">InterMine</a>, based at the Department of Genetics at the University of Cambridge. <a href="https://yochannah.github.io/cv/">Browse my CV</a>.</p>
 
-            <p>I like <a href="goodreads.com/yochannah">reading</a>, <a href="https://www.strava.com/athletes/396911">cycling, running, and hiking</a>, and I'm currently working my fitness back up after rehabilitating an injury.</p>
+            <p>I like <a href="https://www.goodreads.com/yochannah">reading</a>, <a href="https://www.strava.com/athletes/396911">cycling, running, and hiking</a>, and I'm currently working my fitness back up after rehabilitating an injury.</p>
         </div>
         <a href="https://we-are-ols.org">
 
@@ -22,18 +22,18 @@ layout: default
     </a>
     </div>
     <aside>
+        <a href="https://yochannah.github.io/omgscience/">OMG Science! (aka my research notes). </a>
         <h1 class="page-heading">Posts</h1> {{ content }}
         <ul class="post-list">
-            {% for post in site.posts %}
+            {% assign recent_posts =  site.posts | slide 0,5 %}
+            {% for post in recent_posts %}
             <li>
                 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </li>
             {% endfor %}
         </ul>
-        <h5><a href="https://yochannah.github.io/omgscience/">OMG Science! (aka my research notes). </h5>
     </aside>
 
 

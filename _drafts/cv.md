@@ -1,7 +1,7 @@
 ---
 title:  "Yo Yehudi - CV"
 date:   2025-01-07 15:29:12 +0000
-layout: post
+layout: none
 ---
 
 Dr Yo Yehudi (Executive Director, [OLS](https://we-are-ols.org/)) is experienced at running multi-national non-profit open science organisations, creating cohorts of equity-oriented open scientists working towards culture change in academia and research institutes. 
