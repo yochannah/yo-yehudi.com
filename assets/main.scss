@@ -3,7 +3,7 @@
 @charset "utf-8";
 // Define defaults for each variable.
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -48,3 +48,15 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+/**
+ * Site header
+ */
+.site-header {
+  background: linear-gradient(to right, #e91e63 0%, #e91e63 7%, #673ab7 8%, #673ab7 17%, #2196f3 18%, #2196f3 29%, #00bcd4 30%, #00bcd4 39%, #00bcd4 39%, #4caf50 40%, #4caf50 40%, #4caf50 47%, #4caf50 47%, #8bc34a 48%, #8bc34a 56%, #8bc34a 56%, #cddc39 57%, #cddc39 66%, #ffeb3b 67%, #ffeb3b 75%, #ffc107 79%, #ffc107 85%, #ff5722 86%, #ff5722 93%, #f44336 94%, #f44336 94%, #f44336 100%);
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 57.815px;
+  position: relative; }
